@@ -28,7 +28,7 @@
 
 <optional: description>
 
-**Blast Radius:** <one-word description>
+**Blast Radius:** <brief description of affected users or components>
 
 <optional: potential ramifications of merge>
 
