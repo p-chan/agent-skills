@@ -21,7 +21,7 @@ description: MADR 4.0に基づき、重要な意思決定をADRとして記録�
 
 `docs/decisions/NNNN-kebab-case-title.md` に、既存最大番号 + 1（なければ `0001`）で作成する。
 
-リポジトリの既存ドキュメントの主要言語に合わせて、`templates/` 内の対応するテンプレートを使う。
+`template.md` のテンプレートを使う。
 
 実際に検討した選択肢だけを書き、理由と結果は簡潔に残す。
 
