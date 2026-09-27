@@ -1,15 +1,15 @@
 ---
 name: changeset
-description: changeset ファイルを作成し、リリースノートにそのまま載せられる説明を書く。changeset を作成するときに使う。
+description: changeset を追加し、リリースノートにそのまま載せられる説明を書く。changeset を追加するときに使う。
 ---
 
 # changeset
 
 `npx changeset` などの `changeset` コマンドは使わない。インタラクティブモードで起動するため、エージェントが操作を進められない。代わりに `.changeset/` にファイルを直接作成する。
 
-## 作成
+## 追加
 
-`.changeset/<ファイル名>.md` に作成する。ファイル名は `happy-bears` のような形容詞と名詞の組み合わせなど、既存の changeset ファイルと重複しない任意の名前にする。
+`.changeset/<ファイル名>.md` として追加する。ファイル名は `happy-bears` のような形容詞と名詞の組み合わせなど、既存の changeset のファイル名と重複しない任意の名前にする。
 
 次のテンプレートを使う。
 
