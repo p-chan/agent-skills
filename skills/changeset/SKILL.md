@@ -1,15 +1,15 @@
 ---
 name: changeset
-description: changeset を追加する。changeset を追加するときに使う。
+description: changeset ファイルを作成する。changeset ファイルを作成するときに使う。
 ---
 
 # changeset
 
 `changeset` コマンド（`npx changeset` など）は使わない。このコマンドでは、複数段落の説明やコードブロックを渡しにくい。代わりに `.changeset/` にファイルを直接作成する。
 
-## 追加
+## 作成
 
-`.changeset/<ファイル名>.md` として追加する。ファイル名は `happy-bears` のような形容詞と名詞の組み合わせなど、既存の changeset のファイル名と重複しない任意の名前にする。
+`.changeset/<ファイル名>.md` に作成する。ファイル名は `happy-bears` のような形容詞と名詞の組み合わせなど、既存の changeset ファイルと重複しない任意の名前にする。
 
 次のテンプレートを使う。
 
@@ -41,7 +41,7 @@ description: changeset を追加する。changeset を追加するときに使�
 
 - 1行目に変更の主題だけを、体言止めの1文で書く（「CSV エクスポート機能を追加」）
 - 使い方、理由、移行方法など、利用者に伝えたい詳細があれば空行のあとに書く
-- 主題が複数あるときは、主題ごとに changeset を分ける
+- 主題が複数あるときは、主題ごとに changeset ファイルを分ける
 
 ## 例
 
