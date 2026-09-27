@@ -1,10 +1,28 @@
 # Credits
 
-このスキルは [Matt Pocock](https://github.com/mattpocock) の [`writing-for-agents`](https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents) スキル（v1.2.3）を元にしている。
+このスキルは、OpenAI と Anthropic の公式ドキュメントに共通する指針を土台にし、[Matt Pocock](https://github.com/mattpocock) の [`writing-for-agents`](https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents) スキル（v1.2.3）の考え方を加えている。
+
+## 公式ドキュメント
+
+2026-09-27 に確認した。
+
+- OpenAI
+  - [Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md)
+  - [Customization](https://learn.chatgpt.com/docs/customization/overview)
+  - [Best practices](https://learn.chatgpt.com/guides/best-practices)
+  - [Build skills](https://learn.chatgpt.com/docs/build-skills)
+  - [AGENTS.md](https://agents.md/)
+- Anthropic
+  - [How Claude remembers your project](https://code.claude.com/docs/en/memory)
+  - [Best practices for Claude Code](https://code.claude.com/docs/en/best-practices)
+  - [Extend Claude with skills](https://code.claude.com/docs/en/skills)
+  - [Skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
+
+両社に共通する指針（指示ファイルを短く保つ、推測できない情報だけを書く、同じ誤りが繰り返されたら追加する、特定の作業は Skill に、例外なく守らせるルールは hook や lint に移す、`description` に何をするかといつ使うかを書き主な用途を先頭に置く、など）を土台にした。片方だけにある指針は、もう片方と矛盾しないものを取り入れた（確認できるほど具体的に書く、自由度を作業に合わせる、参照を1階層に保つ、などは Anthropic、完了の定義を書く、読みすぎるときに優先して読む場所を書く、などは OpenAI）。
+
+## writing-for-agents
 
 `SKILL.md` の参照、2つの負荷、情報の階層、完了条件、分割、中心となる語（原文では leading word）、否定、整理と削減の考え方と、`references/skills.md` の呼び出し方、呼び出しでの分割、ルーター Skill の考え方は、`writing-for-agents` からほぼそのまま取り入れた。
-
-`references/instruction-files.md` の情報の置き場は、このスキルで独自に加えた。
 
 ## Licenses
 
