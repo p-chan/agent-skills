@@ -5,7 +5,7 @@ description: changeset を追加する。changeset を追加するときに使�
 
 # changeset
 
-`changeset` コマンド（`npx changeset` など）は使わない。このコマンドはインタラクティブモードで起動するため、エージェントからは操作を進められない。代わりに `.changeset/` にファイルを直接作成する。
+`changeset` コマンド（`npx changeset` など）は使わない。このコマンドでは、複数段落の説明やコードブロックを渡しにくい。代わりに `.changeset/` にファイルを直接作成する。
 
 ## 追加
 
@@ -23,7 +23,7 @@ description: changeset を追加する。changeset を追加するときに使�
 
 ## パッケージ名
 
-`package.json` を確認してパッケージ名を特定する。モノレポでは変更対象のパッケージを特定する。
+`package.json` を確認してパッケージ名を特定する。モノレポでは変更したパッケージをすべて特定し、frontmatter に1行ずつ書く。
 
 ## bump type
 
@@ -41,6 +41,7 @@ description: changeset を追加する。changeset を追加するときに使�
 
 - 1行目に変更の主題だけを、体言止めの1文で書く（「CSV エクスポート機能を追加」）
 - 使い方、理由、移行方法など、利用者に伝えたい詳細があれば空行のあとに書く
+- 主題が複数あるときは、主題ごとに changeset を分ける
 
 ## 例
 
