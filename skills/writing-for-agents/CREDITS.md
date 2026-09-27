@@ -18,11 +18,11 @@
   - [Extend Claude with skills](https://code.claude.com/docs/en/skills)
   - [Skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
 
-両社に共通する指針（指示ファイルを短く保つ、推測できない情報だけを書く、同じ誤りが繰り返されたら追加する、特定の作業は Skill に、例外なく守らせるルールは hook や lint に移す、`description` に何をするかといつ使うかを書き主な用途を先頭に置く、など）を土台にした。片方だけにある指針は、もう片方と矛盾しないものを取り入れた（確認できるほど具体的に書く、自由度を作業に合わせる、参照を1階層に保つ、などは Anthropic、完了の定義を書く、読みすぎるときに優先して読む場所を書く、などは OpenAI）。
+両社に共通する指針（指示ファイルを短く保つ、推測できない情報だけを書く、同じ誤りが繰り返されたら追加する、特定の作業は Skill に、例外なく守らせるルールは hook や lint に移す、`description` に何をするかといつ使うかを書き主な用途を先頭に置く、など）を土台にした。片方だけにある指針は、もう片方と矛盾しないものを取り入れた（確認できるほど具体的に書く、どこまで任せるかを作業に合わせる、参照を1階層に保つ、などは Anthropic、完了の定義を書く、読みすぎるときに優先して読む場所を書く、などは OpenAI）。
 
 ## writing-for-agents
 
-`SKILL.md` の参照、2つの負荷、情報の階層、完了条件、分割、中心となる語（原文では leading word）、否定、整理と削減の考え方と、`references/skills.md` の呼び出し方、呼び出しでの分割、ルーター Skill の考え方は、`writing-for-agents` からほぼそのまま取り入れた。
+`SKILL.md` の参照（原文では context pointer）、2つの負荷、情報の配置、完了条件、文書の分け方、キーワード（原文では leading word）、禁止の扱い、整理と削除の考え方と、`references/skills.md` の呼び出し方、呼び出し方での分け方、案内役の Skill（原文では router skill）の考え方は、`writing-for-agents` からほぼそのまま取り入れた。
 
 ## Licenses
 
