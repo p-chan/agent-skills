@@ -1,6 +1,6 @@
 ---
 name: changeset
-description: リリースノートに掲載する変更内容を changeset ファイルとして記録する。changeset を作成するときに使う。
+description: changeset ファイルを作成し、リリースノートにそのまま載せられる説明を書く。changeset を作成するときに使う。
 ---
 
 # changeset
