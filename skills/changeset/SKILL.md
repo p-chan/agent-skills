@@ -1,6 +1,6 @@
 ---
 name: changeset
-description: changeset を追加し、リリースノートにそのまま載せられる説明を書く。changeset を追加するときに使う。
+description: changeset を追加する。changeset を追加するときに使う。
 ---
 
 # changeset
