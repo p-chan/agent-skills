@@ -5,7 +5,7 @@ description: changeset を追加する。changeset を追加するときに使�
 
 # changeset
 
-`changeset` コマンド（`npx changeset` など）は使わない。インタラクティブモードで起動するため、エージェントが操作を進められない。代わりに `.changeset/` にファイルを直接作成する。
+`changeset` コマンド（`npx changeset` など）は使わない。このコマンドはインタラクティブモードで起動するため、エージェントからは操作を進められない。代わりに `.changeset/` にファイルを直接作成する。
 
 ## 追加
 
