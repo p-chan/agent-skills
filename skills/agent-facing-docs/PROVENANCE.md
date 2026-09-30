@@ -1,6 +1,6 @@
 # Provenance
 
-この Skill は、以下の資料で示されている考え方を参考に構成している。再構成している。
+この Skill は、以下の資料で示されている考え方を参考に構成している。
 
 - Matt Pocock — `writing-for-agents`  
   https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents  
