@@ -7,7 +7,7 @@
 悪い例:
 
 ```yaml
-description: Pull Request に関する Skill。
+description: Pull Request の作成・更新・レビューを支援する。
 ```
 
 良い例:
