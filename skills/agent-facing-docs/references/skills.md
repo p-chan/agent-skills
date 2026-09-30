@@ -2,7 +2,7 @@
 
 ## description
 
-`description` には、何を扱うかと、いつ使用するかを書く。
+`description` には、何をするかと、いつ使うかを書く。
 
 悪い例:
 
